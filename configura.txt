@@ -24,8 +24,13 @@
     git init
     git add .
     git status
-    git commit -m "Inicialización de repositorio"    
+    git commit -m "Inicialización de repositorio"
+    git status
+    
+## ANTES DE HACER EL PUSH NECESITAMOS SABER A QUÉ HUBICACIÓN APUNTAR
+    ## En github buscamos nuestro proyecto
 
+    git push
 
 
 
