@@ -34,5 +34,16 @@
 
 
 
+## HACER INSTALACION DE PAQUETES
+
+    pip install django==3.1
+    pip install djangorestframework
+    pip install django-postgresql
+
+    pip freeze
+    pip freeze > requirements.txt
+
+
+
 ## PROBAR GIT PARA SUBIR MI ARCHIVO configura.txt
 
