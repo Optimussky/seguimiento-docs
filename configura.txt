@@ -1,0 +1,33 @@
+## CONFIGURAR PROYECTO
+# crear proyecto en github: seguimiento-docs
+    https://github.com/Optimussky/seguimiento-docs.git
+
+## CREAR CARPETA DE PROYECTO PARA ENTORNO VIRTUAL
+# Dentro de DjangoProjects se realiza el clone de github
+    git clone https://github.com/Optimussky/seguimiento-docs.git
+
+## CREAR ENTORNO VIRTUAL DENTRO DE seguimiento-docs
+    cd seguimiento-docs
+    python -m pipenv shell
+
+
+## CONFIGURAR USUARIO DE GIT EN TERMINAL PARA SUBIR ARCHIVOS
+# CONFIGURAR USUARIO
+    git config --global user.name
+    
+
+# CONFIGURAR MAIL
+    git config --global user.mail 
+
+ 
+# CREAR RAMA Master
+    git init
+    git add .
+    git status
+    git commit -m "Inicialización de repositorio"    
+
+
+
+
+## PROBAR GIT PARA SUBIR MI ARCHIVO configura.txt
+
